@@ -1,0 +1,7 @@
+- id: dotenv-doctor
+  name: dotenv-doctor
+  description: Check that .env matches .env.example
+  entry: dotenv-doctor
+  language: python
+  pass_filenames: false
+  files: '(^|/)\.env\.example$'
